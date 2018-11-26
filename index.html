@@ -40,44 +40,44 @@
 				width = Math.min(700, window.innerWidth - 10) - margin.left - margin.right,
 				height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
 					
-			var data= [
-                
+var data= [
+
                         [//West
-						{axis:"Food",value: 8571},
-						
-						{axis:"Housing",value:22612},
-						{axis:"Transportation",value:10612},
-                        {axis:"Healthcare",value:4857},
-                        {axis:"Education",value:1518}
+						{legend:'West',axis:"Food",value: 8571},
+
+						{legend:'West',axis:"Housing",value:22612},
+						{legend:'West',axis:"Transportation",value:10612},
+                        {legend:'West',axis:"Healthcare",value:4857},
+                        {legend:'West',axis:"Education",value:1518}
                         ],
-                
+
                         [//Midwest
-						{axis:"Food",value: 7157},
-						
-						{axis:"Housing",value:17408},
-						{axis:"Transportation",value:9058},
-                        {axis:"Healthcare",value:5111},
-                        {axis:"Education",value:1256}
+						{legend:'Midwest',axis:"Food",value: 7157},
+
+						{legend:'Midwest',axis:"Housing",value:17408},
+						{legend:'Midwest',axis:"Transportation",value:9058},
+                        {legend:'Midwest',axis:"Healthcare",value:5111},
+                        {legend:'Midwest',axis:"Education",value:1256}
                         ],
 
 						[//Northeast
-						{axis:"Food",value: 7611},
-					
-						{axis:"Housing",value:22063},
-						{axis:"Transportation",value:8494},
-                        {axis:"Healthcare",value:4889},
-                        {axis:"Education",value:2144}
+						{legend:'Northeast',axis:"Food",value: 7611},
+
+						{legend:'Northeast',axis:"Housing",value:22063},
+						{legend:'Northeast',axis:"Transportation",value:8494},
+                        {legend:'Northeast',axis:"Healthcare",value:4889},
+                        {legend:'Northeast',axis:"Education",value:2144}
                         ],
-                         
+
                         [//South
-						{axis:"Food",value: 6921},
-						
-						{axis:"Housing",value:17383},
-						{axis:"Transportation",value:9323},
-                        {axis:"Healthcare",value:4473},
-                        {axis:"Education",value:1038}
-                        ],                
-					];   
+						{legend:'South',axis:"Food",value: 6921},
+
+						{legend:'South',axis:"Housing",value:17383},
+						{legend:'South',axis:"Transportation",value:9323},
+                        {legend:'South',axis:"Healthcare",value:4473},
+                        {legend:'South',axis:"Education",value:1038}
+                        ],
+					];  
 
 
           	var color = d3.scale.ordinal()
